@@ -1,0 +1,36 @@
+2023-02-18T17:06:59.122-0300 [INFO]  Terraform version: 1.3.8
+2023-02-18T17:06:59.123-0300 [DEBUG] using github.com/hashicorp/go-tfe v1.9.0
+2023-02-18T17:06:59.123-0300 [DEBUG] using github.com/hashicorp/hcl/v2 v2.16.0
+2023-02-18T17:06:59.123-0300 [DEBUG] using github.com/hashicorp/terraform-config-inspect v0.0.0-20210209133302-4fd17a0faac2
+2023-02-18T17:06:59.123-0300 [DEBUG] using github.com/hashicorp/terraform-svchost v0.0.0-20200729002733-f050f53b9734
+2023-02-18T17:06:59.123-0300 [DEBUG] using github.com/zclconf/go-cty v1.12.1
+2023-02-18T17:06:59.123-0300 [INFO]  Go runtime version: go1.19.4
+2023-02-18T17:06:59.123-0300 [INFO]  CLI args: []string{"terraform", "0v"}
+2023-02-18T17:06:59.123-0300 [TRACE] Stdout is a terminal of width 51
+2023-02-18T17:06:59.123-0300 [TRACE] Stderr is a terminal of width 51
+2023-02-18T17:06:59.123-0300 [TRACE] Stdin is a terminal
+2023-02-18T17:06:59.124-0300 [DEBUG] Attempting to open CLI config file: /Users/rodrigosampayo/.terraformrc
+2023-02-18T17:06:59.124-0300 [DEBUG] File doesn't exist, but doesn't need to. Ignoring.
+2023-02-18T17:06:59.128-0300 [DEBUG] ignoring non-existing provider search directory terraform.d/plugins
+2023-02-18T17:06:59.128-0300 [DEBUG] ignoring non-existing provider search directory /Users/rodrigosampayo/.terraform.d/plugins
+2023-02-18T17:06:59.128-0300 [DEBUG] ignoring non-existing provider search directory /Users/rodrigosampayo/Library/Application Support/io.terraform/plugins
+2023-02-18T17:06:59.129-0300 [DEBUG] ignoring non-existing provider search directory /Library/Application Support/io.terraform/plugins
+2023-02-18T17:06:59.131-0300 [INFO]  CLI command args: []string{"0v"}
+2023-02-18T17:07:01.862-0300 [INFO]  Terraform version: 1.3.8
+2023-02-18T17:07:01.864-0300 [DEBUG] using github.com/hashicorp/go-tfe v1.9.0
+2023-02-18T17:07:01.864-0300 [DEBUG] using github.com/hashicorp/hcl/v2 v2.16.0
+2023-02-18T17:07:01.864-0300 [DEBUG] using github.com/hashicorp/terraform-config-inspect v0.0.0-20210209133302-4fd17a0faac2
+2023-02-18T17:07:01.864-0300 [DEBUG] using github.com/hashicorp/terraform-svchost v0.0.0-20200729002733-f050f53b9734
+2023-02-18T17:07:01.864-0300 [DEBUG] using github.com/zclconf/go-cty v1.12.1
+2023-02-18T17:07:01.864-0300 [INFO]  Go runtime version: go1.19.4
+2023-02-18T17:07:01.864-0300 [INFO]  CLI args: []string{"terraform", "-v"}
+2023-02-18T17:07:01.864-0300 [TRACE] Stdout is a terminal of width 51
+2023-02-18T17:07:01.864-0300 [TRACE] Stderr is a terminal of width 51
+2023-02-18T17:07:01.864-0300 [TRACE] Stdin is a terminal
+2023-02-18T17:07:01.864-0300 [DEBUG] Attempting to open CLI config file: /Users/rodrigosampayo/.terraformrc
+2023-02-18T17:07:01.864-0300 [DEBUG] File doesn't exist, but doesn't need to. Ignoring.
+2023-02-18T17:07:01.864-0300 [DEBUG] ignoring non-existing provider search directory terraform.d/plugins
+2023-02-18T17:07:01.864-0300 [DEBUG] ignoring non-existing provider search directory /Users/rodrigosampayo/.terraform.d/plugins
+2023-02-18T17:07:01.864-0300 [DEBUG] ignoring non-existing provider search directory /Users/rodrigosampayo/Library/Application Support/io.terraform/plugins
+2023-02-18T17:07:01.864-0300 [DEBUG] ignoring non-existing provider search directory /Library/Application Support/io.terraform/plugins
+2023-02-18T17:07:01.864-0300 [INFO]  CLI command args: []string{"version", "-v"}
