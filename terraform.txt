@@ -1,0 +1,21 @@
+## Terraform Backends
+- Determines how to state is stored->local or remote
+- By default, state is stored on local disk
+- Variables cannot be used as input to Terraform block
+
+Example:
+
+terraform {
+	required_version = ">=0.12.0"
+	backend "s3" {
+		region = "sa-east-1"
+		profile = "default"
+		}
+	}
+
+## Terraform Providers
+- The source code for all terraform resources:
+Providers carry out interactions with vendor APIs such as AWS and Azure
+They also provide logic for managing, updating and creating resources in Terraform
+
+- MultiProviders -> use Alias

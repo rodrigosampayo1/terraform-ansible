@@ -1,0 +1,5 @@
+rs-terraform-state-180222
+
+##you can create this using aws cli
+- aws s3api create-bucket --bucket name-have-to-be-unique
+
