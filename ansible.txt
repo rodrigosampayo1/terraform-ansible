@@ -11,3 +11,8 @@ eg for an ansible playbook for linux, rhel7/centos 7
 	  name: httpd
 	  state: latest
 If not error appears, it's ok. Maybe could appear [Warning]
+
+e.g.2:ansible-playbook --syntax-check -e"passed_in_hosts=localhost" jenkins-master.yml
+
+you can check too with: echo $? If it returns 0, everything is ok.
+
