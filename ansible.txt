@@ -1,0 +1,13 @@
+1. Declare configurations and orchestrate manual ordered processes
+2. Playbooks are written in YAML only
+3. The flag sintax checking a playbook: --syntax-check
+eg: ansible-playbook --syntax-check sample.yml
+
+eg for an ansible playbook for linux, rhel7/centos 7
+-hosts: cloud-nodes
+-tasks:
+ - name: ensure apache latest version
+	yum:
+	  name: httpd
+	  state: latest
+If not error appears, it's ok. Maybe could appear [Warning]
