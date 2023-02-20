@@ -19,3 +19,13 @@ Providers carry out interactions with vendor APIs such as AWS and Azure
 They also provide logic for managing, updating and creating resources in Terraform
 
 - MultiProviders -> use Alias
+
+## Debugging terraform
+TF_LOG is an env variable for enabling verbose logging in terraform.By default, it will send logs to stdeer, standard error output
+Can be set to the follogin levels: TRACE, DEBUG, INFO, WARN, ERROR.
+TRACE is the most verbose level of logging and also the most reliable one
+
+By default is disabled TF_LOG_PATH, so to enabled:
+export TF_LOG=TRACE
+export TF_LOG_PATH=./terraform.log
+
